@@ -39,6 +39,12 @@ body {
     margin-right: -15px;
 }
 
+.header__input textarea:focus, 
+    input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
 .header__button {
     cursor: pointer;
     min-width: 50px;
