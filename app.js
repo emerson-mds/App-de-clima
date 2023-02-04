@@ -91,8 +91,7 @@ function formatDate (epochTime) {
 
 function formatTime (epochTime) {
     let date = new Date(epochTime * 1000)
-    let hours = date.getHours()
-    let minutes = date.getMinutes()
+    let formattedTime = new Intl.DateTimeFormat('pt-BR', { timeStyle: 'short' }).format(date
 
-    return `${hours}:${minutes}`
+    return formattedTime
 }
