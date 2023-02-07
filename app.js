@@ -15,7 +15,7 @@ const currentHumidity = document.getElementById('current-humidity')
 const sunriseTime = document.getElementById('sunrise-time')
 const sunsetTime = document.getElementById('sunset-time')
 
-const api_key = "e51233ee5555e87f5e6947002d0f39a1"
+const api_key = " "
 
 citySearchButton.addEventListener('click', () => {
     let cityName = citySearchInput.value
